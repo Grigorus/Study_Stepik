@@ -1,6 +1,5 @@
 from selenium import webdriver
 import time
-
 options = webdriver.ChromeOptions()
 options.headless = False
 #options.headless = True
