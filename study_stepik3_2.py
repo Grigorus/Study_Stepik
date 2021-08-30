@@ -10,8 +10,7 @@ import unittest
 #options.headless = True
 options.add_argument("user-agent=Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/"
                      "91.0.4472.106 Safari/537.36")
-browser = webdriver.Chrome(executable_path='C:/Users/GRIGORUS_EN/pitonism/'
-                                           'chromedriver_win32/chromedriver.exe', options=options)
+browser = webdriver.Chrome(executable_path='C:/Users/PythonCoder/PycharmProjects/chromedriver.exe', options=options)
 
 
 class Test3_2(unittest.TestCase):
